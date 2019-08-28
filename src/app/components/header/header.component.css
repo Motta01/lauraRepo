@@ -1,0 +1,107 @@
+/**LOGO**/
+
+.logo {
+  position: fixed;
+  padding: 0px;
+  float: right;
+  right: 74%;
+  top: 7px;
+}
+
+
+/*NAV BAR*/
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(139, 76, 175);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 8px;
+  background-color: rgb(139, 76, 175);
+  
+}
+
+li a:hover {
+  background-color: rgb(113, 72, 136);
+}
+
+.topnav a {
+float: left;
+color: #d6d2d2;
+text-align: left;
+padding: 14px 14px;
+text-decoration: none;
+font-size: 16px;
+}
+ 
+  /**search**/
+.btn {
+    background-color: rgb(139, 76, 175); 
+    border: none; 
+    color: white; 
+    padding: 14px 14px 14px 14px; 
+    font-size: 14px; 
+    cursor: pointer; 
+    position: fixed;
+    top: 0px;
+    left: 65%;
+  }
+  
+   .btn:hover {
+    background-color: rgb(113, 72, 136);
+  }
+  .search-icon {
+    width: 14px;
+  }
+
+form.buscador input[type=text] {
+  position: fixed;
+  top: 0px;
+  left: 67%;
+  padding: 17px;
+  font-size: 14px;
+  border: none;
+  float: left;
+  background: rgb(169, 109, 204);
+}
+
+
+form.buscador button:hover {
+  background: rgb(148, 115, 189);
+}
+
+.search2 {
+  color: aliceblue;
+} 
+
+/**DOWNLOAD BUTTON**/
+.button:hover {
+  background-color: rgb(15, 133, 11); 
+  
+}
+.button {
+  position: absolute;
+  top: 0px;
+  left: 75%;
+  padding: 17px 16px 18px 16px;
+  background-color: #477a32; 
+  border: none; 
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
